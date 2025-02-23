@@ -1,0 +1,18 @@
+{
+  "functions": {
+    "known": []
+  },
+  "variables": {
+    "known": [],
+    "renamed": {}
+  },
+  "replacements": {
+    "distros": [],
+    "machines": [
+      "beaglebone-yocto",
+      "edgerouter",
+      "genericx86",
+      "genericx86-64"
+    ]
+  }
+}
