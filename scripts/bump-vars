@@ -106,7 +106,7 @@ if args.release == 'master':
 with open(os.path.join(basepath, 'bump-vars.config.json'), 'r+') as i:
     config = json.load(i)
 
-    with tempfile.TemporaryDirectory() as t:
+    with tempfile.TemporaryDirectory(ignore_cleanup_errors=True) as t:
         for index, line in enumerate(config):
             name = line['name']
             includes = [os.path.join(basepath, x) for x in line['includes']]
