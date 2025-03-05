@@ -55,9 +55,9 @@ def main(args=None):
 
     import bb.tinfoil
 
-    def yield_from_data(d, name):
+    def yield_from_data(d, name, global_mode = False):
         filepath = os.path.abspath(d.get('FILE', '/does/not/exist'))
-        if any(filepath.startswith(x) for x in args.layer_path_filter) or not args.layer_path_filter:
+        if any(filepath.startswith(x) for x in args.layer_path_filter) or not args.layer_path_filter or global_mode:
             logging.info(f'Extracting data from {name}')
             for k in sorted(d.keys()):
                 if ':' in k:
@@ -77,12 +77,14 @@ def main(args=None):
                     yield (k, tuple(sorted(_paths)))
                 else:
                     yield k
+        else:
+            logging.debug(f'Skipping data from {name}')
 
     quiet = args.quiet
     with bb.tinfoil.Tinfoil(tracking=True, setup_logging=not quiet) as tinfoil:
         tinfoil.prepare(quiet=2, config_only=True)
         logging.info('Extracting data from global config')
-        yield from yield_from_data(tinfoil.config_data, 'global')
+        yield from yield_from_data(tinfoil.config_data, 'global', global_mode=True)
 
     if args.all:
         with bb.tinfoil.Tinfoil(tracking=True, setup_logging=True) as tinfoil:
