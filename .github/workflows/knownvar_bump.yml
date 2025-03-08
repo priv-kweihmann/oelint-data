@@ -11,6 +11,10 @@ jobs:
     name: "Bump known vars"
     runs-on: ubuntu-22.04
 
+    strategy:
+      matrix:
+        release: [master, kirkstone, styhead, scarthgap]
+
     permissions:
       contents: write
       pull-requests: write
@@ -31,18 +35,16 @@ jobs:
           pip install -r requirements-dev.txt
       - name: Bump known vars
         run: |
-          for branch in kirkstone scarthgap styhead master; do
-            ${GITHUB_WORKSPACE}/scripts/bump-vars $branch
-          done
+          ${GITHUB_WORKSPACE}/scripts/bump-vars ${{ matrix.release }}
         shell: bash
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v7
         with:
           reviewers: priv-kweihmann
-          branch: "chore/dataupdate"
-          commit-message: "data: bump latest known variables"
-          title: "data: bump latest known variables"
+          branch: "chore/dataupdate-${{ matrix.release }}"
+          commit-message: "data/${{ matrix.release }}: bump latest known variables"
+          title: "data/${{ matrix.release }}: bump latest known variables"
           body: "auto generated data update"
           add-paths: |
             oelint_data/*.json
-            scripts/bump-vars.config.json
+            scripts/*

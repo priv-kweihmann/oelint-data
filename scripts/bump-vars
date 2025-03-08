@@ -6,6 +6,7 @@ import argparse
 import json
 import logging
 import os
+from pathlib import Path
 import re
 import subprocess
 import sys
@@ -103,7 +104,16 @@ destination_release = args.release
 if args.release == 'master':
     destination_release = Tweaks.DEVELOPMENT_RELEASE
 
-with open(os.path.join(basepath, 'bump-vars.config.json'), 'r+') as i:
+def load_hash(name, release) -> str:
+    try:
+        return Path(basepath, f'{name}-{release}.hash').read_text()
+    except FileNotFoundError:
+        return ''
+
+def save_hash(name, release, hash) -> None:
+    Path(basepath, f'{name}-{release}.hash').write_text(hash)
+
+with open(os.path.join(basepath, 'bump-vars.config.json'), 'r') as i:
     config = json.load(i)
 
     with tempfile.TemporaryDirectory(ignore_cleanup_errors=True) as t:
@@ -115,7 +125,7 @@ with open(os.path.join(basepath, 'bump-vars.config.json'), 'r+') as i:
             if os.path.exists(tweaks_file):
                 includes.append(tweaks_file)
             excludes = line['excludes']
-            hash = line['latest'].get(args.release, '')
+            hash = load_hash(name, args.release)
             if hash == 'skip':
                 logging.info(f'{name}@{args.release} will be skipped')
                 continue
@@ -124,8 +134,4 @@ with open(os.path.join(basepath, 'bump-vars.config.json'), 'r+') as i:
             alias = line.get('alias', 'no-alias')
             logging.info(f'Creating data file for {name}')
             hash = run_in_kas(t, name, includes, excludes, destination, hash, extra_layer, alias, args.force)
-            config[index]['latest'][args.release] = hash
-
-    i.seek(0)
-    i.truncate()
-    json.dump(config, i, sort_keys=True, indent=2)
+            save_hash(name, args.release, hash)
