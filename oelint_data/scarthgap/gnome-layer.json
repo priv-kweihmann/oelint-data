@@ -6,6 +6,8 @@
   },
   "variables": {
     "known": [
+      "BBFILES_PRIORITIZED",
+      "BB_LOGCONFIG",
       "CLUTTERBASEBUILDCLASS",
       "IMAGE_LINGUAS_COMPLEMENTARY",
       "REALNAME",
