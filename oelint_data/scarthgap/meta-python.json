@@ -9,8 +9,6 @@
   },
   "variables": {
     "known": [
-      "BBFILES_PRIORITIZED",
-      "BB_LOGCONFIG",
       "KIVY_CROSS_SYSROOT",
       "KIVY_GRAPHICS",
       "PTESTS_FAST_META_PYTHON",
