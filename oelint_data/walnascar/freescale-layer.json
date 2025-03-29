@@ -22,7 +22,8 @@
       "FSL_MIRROR",
       "IMX_MIRROR",
       "SCMVERSION",
-      "SOC_DEFAULT_IMAGE_FSTYPES"
+      "SOC_DEFAULT_IMAGE_FSTYPES",
+      "SPDX_PACKAGE_VERSION"
     ],
     "renamed": {}
   },

@@ -37,7 +37,8 @@
       "LDEMULATION",
       "PTESTS_FAST_META_OE",
       "PTESTS_PROBLEMS_META_OE",
-      "PTESTS_SLOW_META_OE"
+      "PTESTS_SLOW_META_OE",
+      "SPDX_PACKAGE_VERSION"
     ],
     "renamed": {}
   },
