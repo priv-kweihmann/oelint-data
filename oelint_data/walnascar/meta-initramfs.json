@@ -3,7 +3,9 @@
     "known": []
   },
   "variables": {
-    "known": [],
+    "known": [
+      "SPDX_PACKAGE_VERSION"
+    ],
     "renamed": {}
   },
   "replacements": {
