@@ -2,6 +2,6 @@ header:
   version: 18
 repos:
   poky:
-    url: "https://git.yoctoproject.org/git/poky"
+    url: "https://github.com/yoctoproject/poky"
     layers:
       meta:
