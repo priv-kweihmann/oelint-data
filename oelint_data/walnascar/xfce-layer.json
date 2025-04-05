@@ -4,8 +4,7 @@
   },
   "variables": {
     "known": [
-      "AUTOTOOLS_COPYACLOCAL",
-      "SPDX_PACKAGE_VERSION"
+      "AUTOTOOLS_COPYACLOCAL"
     ],
     "renamed": {}
   },

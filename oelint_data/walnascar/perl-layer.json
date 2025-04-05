@@ -6,8 +6,7 @@
     "known": [
       "PTESTS_FAST_META_PERL",
       "PTESTS_PROBLEMS_META_PERL",
-      "PTESTS_SLOW_META_PERL",
-      "SPDX_PACKAGE_VERSION"
+      "PTESTS_SLOW_META_PERL"
     ],
     "renamed": {}
   },

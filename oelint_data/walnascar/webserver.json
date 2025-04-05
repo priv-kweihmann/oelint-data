@@ -4,8 +4,7 @@
   },
   "variables": {
     "known": [
-      "LIBS",
-      "SPDX_PACKAGE_VERSION"
+      "LIBS"
     ],
     "renamed": {}
   },

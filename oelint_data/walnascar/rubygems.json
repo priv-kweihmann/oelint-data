@@ -35,8 +35,7 @@
       "RUBYLIB_EXTRA_PATHS",
       "RUBYPLATFORM",
       "RUBY_INSTALL_EXTRA_FLAGS",
-      "RUBY_SITEDIR",
-      "SPDX_PACKAGE_VERSION"
+      "RUBY_SITEDIR"
     ],
     "renamed": {}
   },

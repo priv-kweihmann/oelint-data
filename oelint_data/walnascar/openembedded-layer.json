@@ -4,6 +4,8 @@
       "breakpad_package_preprocess",
       "do_fitimage",
       "do_image_verity",
+      "do_package_check_version_mismatch",
+      "do_package_check_version_mismatch_setscene",
       "do_scancode",
       "do_scancode_oss",
       "signing_get_module",
@@ -37,8 +39,7 @@
       "LDEMULATION",
       "PTESTS_FAST_META_OE",
       "PTESTS_PROBLEMS_META_OE",
-      "PTESTS_SLOW_META_OE",
-      "SPDX_PACKAGE_VERSION"
+      "PTESTS_SLOW_META_OE"
     ],
     "renamed": {}
   },
