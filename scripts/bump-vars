@@ -26,6 +26,7 @@ from oelint_adv.tweaks import Tweaks  # noqa: E402
 def create_argparser() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
     parser.add_argument('--force', action='store_true', help='Disable hash check')
+    parser.add_argument('--just', default='', help='Limit run to just...')
     parser.add_argument('release')
     return parser.parse_args()
 
@@ -119,6 +120,8 @@ with open(os.path.join(basepath, 'bump-vars.config.json'), 'r') as i:
     with tempfile.TemporaryDirectory(ignore_cleanup_errors=True) as t:
         for index, line in enumerate(config):
             name = line['name']
+            if args.just and name != args.just:
+                continue
             includes = [os.path.join(basepath, x) for x in line['includes']]
             includes.append(os.path.join(basepath, f'kas_config/release-{args.release}.yml'))
             tweaks_file = os.path.join(basepath, f'kas_config/tweaks-{args.release}-{name}.yml')
