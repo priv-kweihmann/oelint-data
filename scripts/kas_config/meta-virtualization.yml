@@ -1,0 +1,5 @@
+header:
+  version: 18
+repos:
+  meta-virtualization:
+    url: "https://github.com/avnet-embedded/meta-virtualization.git"

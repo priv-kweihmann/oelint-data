@@ -1,0 +1,52 @@
+{
+  "functions": {
+    "known": [
+      "enable_runqemu_network",
+      "enable_runqemu_network:qemuall",
+      "virt_bbappend_distrocheck",
+      "virt_gen_hostname",
+      "virt_set_hostname",
+      "write_lop_add_chosen_module",
+      "write_lop_add_to_xen_cmdline",
+      "write_lops_xen_section"
+    ]
+  },
+  "variables": {
+    "known": [
+      "DISTUTILS_BUILD_ARGS",
+      "DISTUTILS_INSTALL_ARGS",
+      "DOM0_KERNEL",
+      "DOM0_KERNEL_LOAD_ADDR",
+      "K8S_CONFIG_PATH",
+      "META_VIRT_CONFIG_PATH",
+      "META_VIRT_XEN_CONFIG_PATH",
+      "OCI_IMAGE_ARCH",
+      "OCI_IMAGE_AUTHOR",
+      "OCI_IMAGE_AUTHOR_EMAIL",
+      "OCI_IMAGE_BACKEND",
+      "OCI_IMAGE_BACKEND_INC",
+      "OCI_IMAGE_ENTRYPOINT",
+      "OCI_IMAGE_ENTRYPOINT_ARGS",
+      "OCI_IMAGE_ENV_VARS",
+      "OCI_IMAGE_LABELS",
+      "OCI_IMAGE_PORTS",
+      "OCI_IMAGE_RUNTIME_UID",
+      "OCI_IMAGE_STOPSIGNAL",
+      "OCI_IMAGE_SUBARCH",
+      "OCI_IMAGE_TAG",
+      "OCI_IMAGE_TAR_OUTPUT",
+      "OCI_IMAGE_WORKINGDIR",
+      "QB_MEM_VALUE",
+      "QB_NETWORK_XEN_BRIDGE",
+      "QB_XEN_CMDLINE_EXTRA",
+      "QB_XEN_DOM0_BOOTARGS",
+      "QB_XEN_DOMAIN_MODULES",
+      "QB_XEN_DTB_TASK_DEPENDS"
+    ],
+    "renamed": {}
+  },
+  "replacements": {
+    "distros": [],
+    "machines": []
+  }
+}
