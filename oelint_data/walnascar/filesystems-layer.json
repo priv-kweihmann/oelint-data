@@ -6,8 +6,7 @@
     "known": [
       "PTESTS_FAST_META_FILESYSTEMS",
       "PTESTS_PROBLEMS_META_FILESYSTEMS",
-      "PTESTS_SLOW_META_FILESYSTEMS",
-      "SPDX_PACKAGE_VERSION"
+      "PTESTS_SLOW_META_FILESYSTEMS"
     ],
     "renamed": {}
   },
