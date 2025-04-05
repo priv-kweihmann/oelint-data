@@ -212,6 +212,30 @@
     "name": "xfce-layer"
   },
   {
+    "alias": "meta-virtualization",
+    "excludes": [
+      "core",
+      "yocto",
+      "yoctobsp",
+      "openembedded-layer",
+      "networking-layer",
+      "meta-python",
+      "filesystems-layer"
+    ],
+    "includes": [
+      "kas_config/poky-core.yml",
+      "kas_config/poky-meta-poky.yml",
+      "kas_config/poky-meta-yocto-bsp.yml",
+      "kas_config/oe-core.yml",
+      "kas_config/oe-meta-filesystems.yml",
+      "kas_config/oe-meta-networking.yml",
+      "kas_config/oe-meta-python.yml",
+      "kas_config/meta-virtualization.yml",
+      "kas_config/tweaks-virtualization-layer.yml"
+    ],
+    "name": "virtualization-layer"
+  },
+  {
     "alias": "meta-webkit",
     "excludes": [
       "core",
