@@ -4,7 +4,8 @@
   },
   "variables": {
     "known": [
-      "AUTOTOOLS_COPYACLOCAL"
+      "AUTOTOOLS_COPYACLOCAL",
+      "CVE_STATUS_EXTENDED"
     ],
     "renamed": {}
   },

@@ -17,6 +17,7 @@
   },
   "variables": {
     "known": [
+      "CVE_STATUS_EXTENDED",
       "DEFAULT_FS_SUPPORT",
       "FSL_EULA_FILE",
       "FSL_MIRROR",

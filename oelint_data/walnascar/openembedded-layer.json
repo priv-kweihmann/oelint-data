@@ -31,6 +31,7 @@
   },
   "variables": {
     "known": [
+      "CVE_STATUS_EXTENDED",
       "FINAL_LIBS",
       "GITPKGV",
       "GITPKGVTAG",

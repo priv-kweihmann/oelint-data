@@ -7,6 +7,7 @@
   },
   "variables": {
     "known": [
+      "CVE_STATUS_EXTENDED",
       "DISTRO_CODENAME",
       "POKY_DEFAULT_DISTRO_FEATURES",
       "POKY_DEFAULT_EXTRA_RDEPENDS",
