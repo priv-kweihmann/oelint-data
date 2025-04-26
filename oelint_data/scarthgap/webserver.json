@@ -4,6 +4,8 @@
   },
   "variables": {
     "known": [
+      "BBFILES_PRIORITIZED",
+      "BB_LOGCONFIG",
       "LIBS"
     ],
     "renamed": {}

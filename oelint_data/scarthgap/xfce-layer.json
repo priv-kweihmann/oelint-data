@@ -4,9 +4,7 @@
   },
   "variables": {
     "known": [
-      "AUTOTOOLS_COPYACLOCAL",
-      "BBFILES_PRIORITIZED",
-      "BB_LOGCONFIG"
+      "AUTOTOOLS_COPYACLOCAL"
     ],
     "renamed": {}
   },
