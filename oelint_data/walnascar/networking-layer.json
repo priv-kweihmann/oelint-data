@@ -7,6 +7,7 @@
   "variables": {
     "known": [
       "CROSS_METHOD",
+      "CVE_STATUS_EXTENDED",
       "PERLPROG",
       "PTESTS_FAST_META_NETWORKING",
       "PTESTS_PROBLEMS_META_NETWORKING",

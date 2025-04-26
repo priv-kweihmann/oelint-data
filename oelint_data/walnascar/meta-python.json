@@ -9,6 +9,7 @@
   },
   "variables": {
     "known": [
+      "CVE_STATUS_EXTENDED",
       "KIVY_CROSS_SYSROOT",
       "KIVY_GRAPHICS",
       "PTESTS_FAST_META_PYTHON",

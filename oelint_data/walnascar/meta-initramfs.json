@@ -3,7 +3,9 @@
     "known": []
   },
   "variables": {
-    "known": [],
+    "known": [
+      "CVE_STATUS_EXTENDED"
+    ],
     "renamed": {}
   },
   "replacements": {

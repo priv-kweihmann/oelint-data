@@ -4,6 +4,7 @@
   },
   "variables": {
     "known": [
+      "CVE_STATUS_EXTENDED",
       "LIBS"
     ],
     "renamed": {}
