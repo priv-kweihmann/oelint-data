@@ -253,6 +253,25 @@
     "name": "webkit"
   },
   {
+    "alias": "meta-qt6",
+    "excludes": [
+      "core",
+      "yocto",
+      "yoctobsp",
+      "openembedded-layer",
+      "meta-python"
+    ],
+    "includes": [
+      "kas_config/poky-core.yml",
+      "kas_config/poky-meta-poky.yml",
+      "kas_config/poky-meta-yocto-bsp.yml",
+      "kas_config/oe-core.yml",
+      "kas_config/oe-meta-python.yml",
+      "kas_config/meta-qt6.yml"
+    ],
+    "name": "qt6-layer"
+  },
+  {
     "excludes": [
       "core",
       "yocto",
