@@ -13,7 +13,6 @@
   },
   "variables": {
     "known": [
-      "CVE_STATUS_EXTENDED",
       "EXTRA_DEPENDS",
       "EXTRA_RDEPENDS",
       "GEMLIB_VERSION",
