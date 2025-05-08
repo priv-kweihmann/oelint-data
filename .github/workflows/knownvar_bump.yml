@@ -13,7 +13,7 @@ jobs:
 
     strategy:
       matrix:
-        release: [master, kirkstone, styhead, scarthgap]
+        release: [master, walnascar, scarthgap, kirkstone]
 
     permissions:
       contents: write
