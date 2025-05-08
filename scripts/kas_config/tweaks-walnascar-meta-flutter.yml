@@ -1,0 +1,6 @@
+header:
+  version: 18
+repos:
+    meta-flutter:
+      branch: master
+      commit: 0c5e10fab53ae4dcec23b9c616298bb604ca0780

@@ -1,0 +1,6 @@
+header:
+  version: 18
+repos:
+    meta-freescale-distro:
+      branch: master
+      commit: b9c3536b68271c420fe5de36fc284781ceaa32ab
