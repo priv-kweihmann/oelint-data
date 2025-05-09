@@ -10,7 +10,7 @@ import sys
 import tempfile
 
 basepath = os.path.abspath(os.path.dirname(__file__))
-sys.path.append(os.path.abspath(basepath + '/../'))
+sys.path.insert(0, os.path.abspath(basepath + '/../'))
 
 from oelint_data import known_variable_mod  # noqa: E402
 from oelint_adv.tweaks import Tweaks  # noqa: E402
@@ -53,9 +53,11 @@ with tempfile.NamedTemporaryFile('r+') as t:
         if not os.path.isfile(item):
             if args.release == 'master':
                 args.release = Tweaks.DEVELOPMENT_RELEASE
-            item = known_variable_mod(args.release, item)
-            if not item:
+            obj = known_variable_mod(args.release, item)
+            if not obj:
+                print(f'Cannot find {item} for {args.release}')
                 continue
+            item = obj
         with open(item) as i:
             excludes.append(json.load(i))
 
