@@ -97,5 +97,7 @@ with tempfile.NamedTemporaryFile('r+') as t:
                 imports.append(item)
         cnt['$imports'] = sorted(imports)
 
+    os.makedirs(os.path.dirname(args.destination), exist_ok=True)
+
     with open(args.destination, 'w') as o:
         json.dump(cnt, o, indent=2)
