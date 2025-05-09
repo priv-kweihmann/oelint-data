@@ -1,0 +1,23 @@
+{
+  "functions": {
+    "known": [
+      "do_scanbuild",
+      "do_scanview"
+    ]
+  },
+  "variables": {
+    "known": [
+      "CLANGSDK",
+      "COMPILER_RT",
+      "LIBCPLUSPLUS",
+      "LLVMVERSION",
+      "TUNE_CCARGS_MARCH_OPTS",
+      "UNWINDLIB"
+    ],
+    "renamed": {}
+  },
+  "replacements": {
+    "distros": [],
+    "machines": []
+  }
+}
