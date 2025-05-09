@@ -10,7 +10,6 @@
     "known": [
       "CLANGSDK",
       "COMPILER_RT",
-      "CVE_STATUS_EXTENDED",
       "LIBCPLUSPLUS",
       "LLVMVERSION",
       "OECMAKE_NATIVE_AR",
