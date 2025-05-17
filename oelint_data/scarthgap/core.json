@@ -1354,6 +1354,7 @@
       "LOCALVERSION",
       "LOCAL_VERSION",
       "LOGFIFO",
+      "LOGNAME",
       "LOG_DIR",
       "MACHINE",
       "MACHINEOVERRIDES",
