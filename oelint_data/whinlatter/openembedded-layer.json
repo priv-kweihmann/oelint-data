@@ -8,6 +8,7 @@
       "do_package_check_version_mismatch_setscene",
       "do_scancode",
       "do_scancode_oss",
+      "oe_image_systemd_repart_make_ddi",
       "signing_get_module",
       "signing_get_uri",
       "signing_import_cert_chain_from_pem",
@@ -26,6 +27,7 @@
       "signing_prepare",
       "signing_use_role",
       "symbol_file_preprocess",
+      "sysext_image_add_version_identifier_file",
       "write_manifest"
     ]
   },
@@ -37,6 +39,7 @@
       "GITPKGV_TAG_REGEXP",
       "HOST_AND_TARGET_SAME_WIDTH",
       "LDEMULATION",
+      "OEQA_REPRODUCIBLE_EXCLUDED_PACKAGES",
       "PTESTS_FAST_META_OE",
       "PTESTS_PROBLEMS_META_OE",
       "PTESTS_SLOW_META_OE"
