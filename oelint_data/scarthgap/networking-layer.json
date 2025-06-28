@@ -6,6 +6,8 @@
   },
   "variables": {
     "known": [
+      "BBFILES_PRIORITIZED",
+      "BB_LOGCONFIG",
       "CROSS_METHOD",
       "PERLPROG",
       "PTESTS_FAST_META_NETWORKING",
