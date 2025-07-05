@@ -9,9 +9,14 @@
       "do_scancode",
       "do_scancode_oss",
       "oe_image_systemd_repart_make_ddi",
+      "signing_extract_cert_der",
+      "signing_extract_cert_pem",
+      "signing_get_ca",
+      "signing_get_intermediate_certs",
       "signing_get_module",
+      "signing_get_root_cert",
       "signing_get_uri",
-      "signing_import_cert_chain_from_pem",
+      "signing_has_ca",
       "signing_import_cert_from_der",
       "signing_import_cert_from_pem",
       "signing_import_define_role",
@@ -23,6 +28,7 @@
       "signing_import_privkey_from_pem",
       "signing_import_pubkey_from_der",
       "signing_import_pubkey_from_pem",
+      "signing_import_set_ca",
       "signing_pkcs11_tool",
       "signing_prepare",
       "signing_use_role",
@@ -42,7 +48,8 @@
       "OEQA_REPRODUCIBLE_EXCLUDED_PACKAGES",
       "PTESTS_FAST_META_OE",
       "PTESTS_PROBLEMS_META_OE",
-      "PTESTS_SLOW_META_OE"
+      "PTESTS_SLOW_META_OE",
+      "TESTSDK_CASE_DIRS"
     ],
     "renamed": {}
   },
