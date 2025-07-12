@@ -9,8 +9,6 @@
   },
   "variables": {
     "known": [
-      "BBFILES_PRIORITIZED",
-      "BB_LOGCONFIG",
       "CLANGSDK",
       "COMPILER_RT",
       "LIBCPLUSPLUS",
