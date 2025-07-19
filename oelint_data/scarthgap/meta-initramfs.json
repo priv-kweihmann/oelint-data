@@ -3,10 +3,7 @@
     "known": []
   },
   "variables": {
-    "known": [
-      "BBFILES_PRIORITIZED",
-      "BB_LOGCONFIG"
-    ],
+    "known": [],
     "renamed": {}
   },
   "replacements": {
