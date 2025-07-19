@@ -4,7 +4,9 @@
   },
   "variables": {
     "known": [
-      "AUTOTOOLS_COPYACLOCAL"
+      "AUTOTOOLS_COPYACLOCAL",
+      "XFCEBASEBUILDCLASS",
+      "XFCE_COMPRESS_TYPE"
     ],
     "renamed": {}
   },
