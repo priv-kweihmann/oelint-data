@@ -1,8 +1,10 @@
 {
   "functions": {
     "known": [
+      "do_write_xen_qemuboot_dtb",
       "enable_runqemu_network",
       "enable_runqemu_network:qemuall",
+      "generate_xen_qemuboot_dtb",
       "virt_bbappend_distrocheck",
       "virt_gen_hostname",
       "virt_set_hostname",
