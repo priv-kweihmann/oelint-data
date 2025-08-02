@@ -9,10 +9,8 @@
     "known": [
       "CLANGSDK",
       "COMPILER_RT",
-      "LIBCPLUSPLUS",
       "LLVMVERSION",
-      "TUNE_CCARGS_MARCH_OPTS",
-      "UNWINDLIB"
+      "TUNE_CCARGS_MARCH_OPTS"
     ],
     "renamed": {}
   },
