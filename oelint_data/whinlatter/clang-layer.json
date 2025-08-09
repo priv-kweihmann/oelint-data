@@ -9,8 +9,7 @@
     "known": [
       "CLANGSDK",
       "COMPILER_RT",
-      "LLVMVERSION",
-      "TUNE_CCARGS_MARCH_OPTS"
+      "LLVMVERSION"
     ],
     "renamed": {}
   },

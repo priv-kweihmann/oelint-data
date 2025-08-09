@@ -39,6 +39,7 @@
   },
   "variables": {
     "known": [
+      "BINDGEN_EXTRA_CLANG_ARGS",
       "FINAL_LIBS",
       "GITPKGV",
       "GITPKGVTAG",
