@@ -1,1 +1,1 @@
-oelint-parser ~= 8.2
+oelint-parser ~= 8.4
