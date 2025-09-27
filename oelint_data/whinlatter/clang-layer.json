@@ -8,7 +8,6 @@
   "variables": {
     "known": [
       "CLANGSDK",
-      "COMPILER_RT",
       "LLVMVERSION"
     ],
     "renamed": {}
