@@ -16,7 +16,7 @@ packages.find.exclude = ["docs*", "tests*", ".*tests*", "tests", ".*tests.*"]
 
 [project]
 name = "oelint_data"
-requires-python = ">= 3.9"
+requires-python = ">= 3.10"
 version = "1.1.0"
 description = "Data for oelint-adv"
 readme = "README.md"
@@ -37,11 +37,11 @@ classifiers = [
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3.13",
-    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.14",
     "Topic :: Software Development :: Quality Assurance",
 ]
 dependencies = [
-  "oelint-parser ~= 8.4"
+  "oelint-parser ~= 8.5"
 ]
 dynamic = ["optional-dependencies"]
 
