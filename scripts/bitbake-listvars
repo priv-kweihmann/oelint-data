@@ -54,6 +54,7 @@ def main(args=None):
     logging.info(f'Extracting info variables. Filter: {args.layer_path_filter}')
 
     import bb.tinfoil
+    import bb.parse
 
     def yield_from_data(d, name, global_mode = False):
         filepath = os.path.abspath(d.get('FILE', '/does/not/exist'))
@@ -89,10 +90,10 @@ def main(args=None):
     if args.all:
         with bb.tinfoil.Tinfoil(tracking=True, setup_logging=True) as tinfoil:
             tinfoil.prepare(quiet=2)
-            for item in tinfoil.all_recipes():
+            for name, filename in tinfoil.cooker.recipecaches[''].pkg_pn.items():
                 try:
-                    yield from yield_from_data(tinfoil.parse_recipe(str(item)), str(item))
-                except ModuleNotFoundError as e:
+                    yield from yield_from_data(tinfoil.parse_recipe(name), filename)
+                except (ModuleNotFoundError, bb.parse.ParseError) as e:
                     logging.error(f'Parsing issues at {item}')
                     logging.exception(e)
                     continue
