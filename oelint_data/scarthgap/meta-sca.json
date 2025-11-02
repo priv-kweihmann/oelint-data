@@ -7,7 +7,6 @@
       "do_sca_bandit_core_report",
       "do_sca_bashate_core",
       "do_sca_bashate_core_report",
-      "do_sca_bitbake",
       "do_sca_cbmc",
       "do_sca_cbmc_report",
       "do_sca_checkbashism_core",

@@ -15,7 +15,6 @@
     "known": [
       "EXE_EXT",
       "EXTRAQCONFFUNCS",
-      "LOGNAME",
       "NATIVE_SYSROOT",
       "OE_QMAKE_AR",
       "OE_QMAKE_AR_LTCG",
