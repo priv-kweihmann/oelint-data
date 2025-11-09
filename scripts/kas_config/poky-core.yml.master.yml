@@ -1,0 +1,11 @@
+header:
+  version: 18
+repos:
+  bitbake:
+    url: https://github.com/openembedded/bitbake.git
+    layers:
+      bitbake: disabled
+  poky:
+    url: "https://github.com/openembedded/openembedded-core.git"
+    layers:
+      meta:

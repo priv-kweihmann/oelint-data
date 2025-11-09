@@ -1,7 +1,2 @@
 header:
   version: 18
-repos:
-  poky:
-    url: "https://github.com/yoctoproject/poky"
-    layers:
-      meta:

@@ -120,11 +120,20 @@ with open(os.path.join(basepath, 'bump-vars.config.json'), 'r') as i:
     with tempfile.TemporaryDirectory(ignore_cleanup_errors=True) as t:
         for index, line in enumerate(config):
             name = line['name']
+            alias = line.get('alias', '----')
             if args.just and name != args.just:
                 continue
-            includes = [os.path.join(basepath, x) for x in line['includes']]
+            includes = []
+            for incl in line['includes']:
+                includes.append(os.path.join(basepath, incl))
+                tweaks_file = os.path.join(basepath, f'{incl}.{args.release}.yml')
+                if os.path.exists(tweaks_file):
+                    includes.append(tweaks_file)
             includes.append(os.path.join(basepath, f'kas_config/release-{args.release}.yml'))
             tweaks_file = os.path.join(basepath, f'kas_config/tweaks-{args.release}-{name}.yml')
+            if os.path.exists(tweaks_file):
+                includes.append(tweaks_file)
+            tweaks_file = os.path.join(basepath, f'kas_config/tweaks-{args.release}-{alias}.yml')
             if os.path.exists(tweaks_file):
                 includes.append(tweaks_file)
             excludes = line['excludes']
@@ -135,6 +144,6 @@ with open(os.path.join(basepath, 'bump-vars.config.json'), 'r') as i:
             extra_layer = line.get('extra-layer', [])
             destination = os.path.join(datadir, destination_release, f'{name}.json')
             alias = line.get('alias', 'no-alias')
-            logging.info(f'Creating data file for {name}')
+            logging.info(f'Creating data file for {name} - [{" ".join(includes)}]')
             hash = run_in_kas(t, name, includes, excludes, destination, hash, extra_layer, alias, args.force)
             save_hash(name, args.release, hash)
