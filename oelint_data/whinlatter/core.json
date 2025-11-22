@@ -200,6 +200,7 @@
       "do_kernel_configme",
       "do_kernel_metadata",
       "do_lint",
+      "do_list_image_features",
       "do_listtasks",
       "do_menuconfig",
       "do_package",
