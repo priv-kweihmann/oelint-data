@@ -28,6 +28,8 @@
   },
   "variables": {
     "known": [
+      "BBFILES_PRIORITIZED",
+      "BB_LOGCONFIG",
       "FINAL_LIBS",
       "GITPKGV",
       "GITPKGVTAG",
