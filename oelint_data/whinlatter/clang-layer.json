@@ -7,8 +7,7 @@
   },
   "variables": {
     "known": [
-      "CLANGSDK",
-      "LLVMVERSION"
+      "CLANGSDK"
     ],
     "renamed": {}
   },
