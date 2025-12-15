@@ -38,7 +38,7 @@ jobs:
           ${GITHUB_WORKSPACE}/scripts/bump-vars ${{ matrix.release }}
         shell: bash
       - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v7
+        uses: peter-evans/create-pull-request@v8
         with:
           reviewers: priv-kweihmann
           branch: "chore/dataupdate-${{ matrix.release }}"
