@@ -1,0 +1,6 @@
+header:
+  version: 18
+repos:
+  meta-clang:
+    branch: master
+    commit: cf20f8bd1366d41094c945597b95dd746e87b871
