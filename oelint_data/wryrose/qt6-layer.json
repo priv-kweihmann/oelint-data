@@ -1,0 +1,55 @@
+{
+  "functions": {
+    "known": [
+      "create_qt6_sdk_files",
+      "do_generate_qt_config_file",
+      "do_srcrev_update",
+      "do_verify_qt_version",
+      "qmake5_base_postconfigure",
+      "qmake5_base_preconfigure"
+    ]
+  },
+  "variables": {
+    "known": [
+      "CAN_USE_PYSIDE6",
+      "EXE_EXT",
+      "NATIVE_SYSROOT",
+      "PATH_DELIM",
+      "QT6BASE",
+      "QT6_INSTALL_ARCHDATADIR",
+      "QT6_INSTALL_BINDIR",
+      "QT6_INSTALL_DATADIR",
+      "QT6_INSTALL_DESCRIPTIONSDIR",
+      "QT6_INSTALL_DOCDIR",
+      "QT6_INSTALL_EXAMPLESDIR",
+      "QT6_INSTALL_HOST_LIBEXECDIR",
+      "QT6_INSTALL_INCLUDEDIR",
+      "QT6_INSTALL_LIBDIR",
+      "QT6_INSTALL_LIBEXECDIR",
+      "QT6_INSTALL_MKSPECSDIR",
+      "QT6_INSTALL_PLUGINSDIR",
+      "QT6_INSTALL_QMLDIR",
+      "QT6_INSTALL_SYSCONFDIR",
+      "QT6_INSTALL_TESTSDIR",
+      "QT6_INSTALL_TRANSLATIONSDIR",
+      "QT_COMMERCIAL_GIT",
+      "QT_COMMERCIAL_GIT_PROTOCOL",
+      "QT_COMMERCIAL_MODULES",
+      "QT_DISABLE_SHADER_DISK_CACHE",
+      "QT_EDITION",
+      "QT_FORCE_BUILD_TOOLS",
+      "QT_GIT",
+      "QT_GIT_PROJECT",
+      "QT_GIT_PROTOCOL",
+      "QT_INSTALL_EXAMPLES_SOURCES",
+      "QT_MESSAGE_LOG_LEVEL",
+      "QT_VERSION",
+      "TARGET_SYSROOT"
+    ],
+    "renamed": {}
+  },
+  "replacements": {
+    "distros": [],
+    "machines": []
+  }
+}
