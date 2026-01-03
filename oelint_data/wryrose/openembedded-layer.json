@@ -1,0 +1,60 @@
+{
+  "functions": {
+    "known": [
+      "breakpad_package_preprocess",
+      "do_fitimage",
+      "do_image_verity",
+      "do_package_check_version_mismatch",
+      "do_package_check_version_mismatch_setscene",
+      "do_scancode",
+      "do_scancode_oss",
+      "oe_image_systemd_repart_make_ddi",
+      "signing_extract_cert_der",
+      "signing_extract_cert_pem",
+      "signing_get_ca",
+      "signing_get_intermediate_certs",
+      "signing_get_module",
+      "signing_get_root_cert",
+      "signing_get_uri",
+      "signing_has_ca",
+      "signing_import_cert_from_der",
+      "signing_import_cert_from_pem",
+      "signing_import_define_role",
+      "signing_import_finish",
+      "signing_import_install",
+      "signing_import_key_from_pem",
+      "signing_import_prepare",
+      "signing_import_privkey_from_der",
+      "signing_import_privkey_from_pem",
+      "signing_import_pubkey_from_der",
+      "signing_import_pubkey_from_pem",
+      "signing_import_set_ca",
+      "signing_pkcs11_tool",
+      "signing_prepare",
+      "signing_use_role",
+      "symbol_file_preprocess",
+      "sysext_image_add_version_identifier_file",
+      "write_manifest"
+    ]
+  },
+  "variables": {
+    "known": [
+      "BINDGEN_EXTRA_CLANG_ARGS",
+      "FINAL_LIBS",
+      "GITPKGV",
+      "GITPKGVTAG",
+      "GITPKGV_TAG_REGEXP",
+      "HOST_AND_TARGET_SAME_WIDTH",
+      "LDEMULATION",
+      "OEQA_REPRODUCIBLE_EXCLUDED_PACKAGES",
+      "PTESTS_FAST_META_OE",
+      "PTESTS_PROBLEMS_META_OE",
+      "PTESTS_SLOW_META_OE"
+    ],
+    "renamed": {}
+  },
+  "replacements": {
+    "distros": [],
+    "machines": []
+  }
+}
