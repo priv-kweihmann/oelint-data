@@ -1,0 +1,26 @@
+{
+  "functions": {
+    "known": [
+      "do_bandit"
+    ]
+  },
+  "variables": {
+    "known": [
+      "KIVY_CROSS_SYSROOT",
+      "KIVY_GRAPHICS",
+      "KIVY_NO_ARGS",
+      "PTESTS_FAST_META_PYTHON",
+      "PTESTS_PROBLEMS_META_PYTHON",
+      "PTESTS_SLOW_META_PYTHON",
+      "PYTHONPATH",
+      "SWIG_FEATURES",
+      "USE_WAYLAND",
+      "USE_X11"
+    ],
+    "renamed": {}
+  },
+  "replacements": {
+    "distros": [],
+    "machines": []
+  }
+}
