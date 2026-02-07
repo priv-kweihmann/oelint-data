@@ -1,0 +1,1 @@
+inherit selinux-image
