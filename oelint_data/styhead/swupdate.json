@@ -1,0 +1,24 @@
+{
+  "functions": {
+    "known": [
+      "do_swuimage",
+      "do_swuimage_setscene",
+      "do_swupdate_copy_swdescription",
+      "swu_encrypt_file"
+    ]
+  },
+  "variables": {
+    "known": [
+      "IMAGE_DEPENDS",
+      "LOGNAME",
+      "SWUDEPLOYDIR",
+      "SWUPDATE_IMAGES",
+      "SWUPDATE_IMAGES_FSTYPES"
+    ],
+    "renamed": {}
+  },
+  "replacements": {
+    "distros": [],
+    "machines": []
+  }
+}
