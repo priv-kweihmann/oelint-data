@@ -3,7 +3,3 @@ header:
 defaults:
   repos:
     branch: kirkstone
-overrides:
-  repos:
-    meta-rubygems:
-      commit: ef8ad0e8632125f73410bed3da125a108860dd38
