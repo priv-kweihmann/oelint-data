@@ -1,0 +1,5 @@
+header:
+  version: 18
+repos:
+  meta-swupdate:
+    url: "https://github.com/sbabic/meta-swupdate.git"
