@@ -1,0 +1,5 @@
+header:
+  version: 18
+repos:
+  meta-selinux:
+    url: "https://git.yoctoproject.org/git/meta-selinux"
