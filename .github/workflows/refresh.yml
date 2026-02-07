@@ -1,0 +1,50 @@
+name: Refresh known vars
+
+on:
+  workflow_dispatch:
+    inputs:
+      release:
+        type: string
+        required: true
+      layer:
+        type: string
+        required: true
+
+jobs:
+  bumpvar:
+    name: "Refresh known vars"
+    runs-on: ubuntu-22.04
+
+    permissions:
+      contents: write
+      pull-requests: write
+
+    if: github.repository == 'priv-kweihmann/oelint-data'
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v6
+      - name: Install requirements
+        run: |
+          sudo apt install gawk wget git diffstat unzip texinfo gcc build-essential \
+               chrpath socat cpio python3 python3-pip python3-pexpect xz-utils debianutils \
+               iputils-ping python3-git python3-jinja2 python3-subunit zstd liblz4-tool \
+               file locales libacl1
+          sudo locale-gen en_US.UTF-8
+          pip3 install --upgrade pip
+          pip3 install .[dev]
+      - name: Bump known vars
+        run: |
+          ${GITHUB_WORKSPACE}/scripts/bump-vars --force --just=${{ github.workflow.inputs.layer }} ${{ github.workflow.inputs.release }}
+        shell: bash
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v8
+        with:
+          reviewers: priv-kweihmann
+          branch: "chore/datarefresh-${{ github.workflow.inputs.release }}-${{ github.workflow.inputs.layer }}"
+          commit-message: "data/${{ github.workflow.inputs.release }}: refresh ${{ github.workflow.inputs.layer }} variables"
+          title: "data/${{ github.workflow.inputs.release }}: refresh ${{ github.workflow.inputs.layer }} variables"
+          body: "auto generated data update"
+          add-paths: |
+            oelint_data/*.json
+            scripts/*
