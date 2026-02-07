@@ -1,0 +1,19 @@
+{
+  "functions": {
+    "known": [
+      "selinux_set_labels"
+    ]
+  },
+  "variables": {
+    "known": [
+      "BBFILES_PRIORITIZED",
+      "BB_LOGCONFIG",
+      "LIBSELINUX"
+    ],
+    "renamed": {}
+  },
+  "replacements": {
+    "distros": [],
+    "machines": []
+  }
+}
