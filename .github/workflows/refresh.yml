@@ -12,7 +12,7 @@ on:
 
 jobs:
   bumpvar:
-    name: "Refresh known vars"
+    name: "Refresh known vars ${{ github.event.inputs.layer }} ${{ github.event.inputs.release }}"
     runs-on: ubuntu-22.04
 
     permissions:
@@ -35,15 +35,15 @@ jobs:
           pip3 install .[dev]
       - name: Bump known vars
         run: |
-          ${GITHUB_WORKSPACE}/scripts/bump-vars --force --just=${{ github.workflow.inputs.layer }} ${{ github.workflow.inputs.release }}
+          ${GITHUB_WORKSPACE}/scripts/bump-vars --force --just=${{ github.event.inputs.layer }} ${{ github.event.inputs.release }}
         shell: bash
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v8
         with:
           reviewers: priv-kweihmann
-          branch: "chore/datarefresh-${{ github.workflow.inputs.release }}-${{ github.workflow.inputs.layer }}"
-          commit-message: "data/${{ github.workflow.inputs.release }}: refresh ${{ github.workflow.inputs.layer }} variables"
-          title: "data/${{ github.workflow.inputs.release }}: refresh ${{ github.workflow.inputs.layer }} variables"
+          branch: "chore/datarefresh-${{ github.event.inputs.release }}-${{ github.event.inputs.layer }}"
+          commit-message: "data/${{ github.event.inputs.release }}: refresh ${{ github.event.inputs.layer }} variables"
+          title: "data/${{ github.event.inputs.release }}: refresh ${{ github.event.inputs.layer }} variables"
           body: "auto generated data update"
           add-paths: |
             oelint_data/*.json
