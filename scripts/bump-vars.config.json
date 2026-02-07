@@ -281,7 +281,8 @@
       "kas_config/poky-core.yml",
       "kas_config/poky-meta-poky.yml",
       "kas_config/poky-meta-yocto-bsp.yml",
-      "kas_config/meta-sca.yml"
+      "kas_config/meta-sca.yml",
+      "kas_config/tweaks-meta-sca.yml"
     ],
     "name": "meta-sca"
   },
@@ -380,5 +381,48 @@
       "kas_config/meta-clang.yml"
     ],
     "name": "clang-layer"
+  },
+  {
+    "alias": "meta-swupdate",
+    "excludes": [
+      "core",
+      "yocto",
+      "yoctobsp",
+      "openembedded-layer"
+    ],
+    "extra-layer": [
+      "kas_config/meta-swupdate-mixin"
+    ],
+    "includes": [
+      "kas_config/poky-core.yml",
+      "kas_config/poky-meta-poky.yml",
+      "kas_config/poky-meta-yocto-bsp.yml",
+      "kas_config/oe-core.yml",
+      "kas_config/meta-swupdate.yml"
+    ],
+    "name": "swupdate"
+  },
+  {
+    "alias": "meta-selinux",
+    "excludes": [
+      "core",
+      "yocto",
+      "yoctobsp",
+      "openembedded-layer",
+      "meta-python"
+    ],
+    "extra-layer": [
+      "kas_config/meta-selinux-mixin"
+    ],
+    "includes": [
+      "kas_config/poky-core.yml",
+      "kas_config/poky-meta-poky.yml",
+      "kas_config/poky-meta-yocto-bsp.yml",
+      "kas_config/oe-core.yml",
+      "kas_config/oe-meta-python.yml",
+      "kas_config/meta-selinux.yml",
+      "kas_config/tweaks-selinux.yml"
+    ],
+    "name": "selinux"
   }
 ]
