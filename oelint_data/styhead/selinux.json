@@ -1,0 +1,19 @@
+{
+  "functions": {
+    "known": [
+      "selinux_set_labels",
+      "selinux_setlabels_handler"
+    ]
+  },
+  "variables": {
+    "known": [
+      "LIBSELINUX",
+      "LOGNAME"
+    ],
+    "renamed": {}
+  },
+  "replacements": {
+    "distros": [],
+    "machines": []
+  }
+}
