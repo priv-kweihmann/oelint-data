@@ -4,3 +4,4 @@ local_conf_header:
   tweaks-sca: |
     INHERIT += "sca"
     SCA_SPARE_LAYER = "core yocto yoctobsp"
+    DISTRO = "scatest"
