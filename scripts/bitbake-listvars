@@ -87,7 +87,7 @@ def main(args=None):
         with bb.tinfoil.Tinfoil(tracking=True, setup_logging=True) as tinfoil:
             tinfoil.prepare(quiet=2)
             for name, filename in tinfoil.cooker.recipecaches[''].pkg_pn.items():
-                if any(os.path.abspath(filename[0].split(':')[-1]).startswith(x) for x in args.layer_path_filter) or not args.layer_path_filter:
+                if not any(os.path.abspath(filename[0].split(':')[-1]).startswith(x) for x in args.layer_path_filter) and args.layer_path_filter:
                     continue
                 try:
                     yield from yield_from_data(tinfoil.parse_recipe(name), filename)
