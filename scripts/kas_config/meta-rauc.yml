@@ -1,0 +1,5 @@
+header:
+  version: 18
+repos:
+  meta-rauc:
+    url: "https://github.com/rauc/meta-rauc.git"

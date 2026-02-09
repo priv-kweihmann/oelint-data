@@ -287,6 +287,22 @@
     "name": "meta-sca"
   },
   {
+    "alias": "meta-rauc",
+    "excludes": [
+      "core",
+      "yocto",
+      "yoctobsp"
+    ],
+    "includes": [
+      "kas_config/poky-core.yml",
+      "kas_config/poky-meta-poky.yml",
+      "kas_config/poky-meta-yocto-bsp.yml",
+      "kas_config/meta-rauc.yml",
+      "kas_config/tweaks-rauc.yml"
+    ],
+    "name": "rauc"
+  },
+  {
     "alias": "meta-rubygems",
     "excludes": [
       "core",

@@ -1,0 +1,45 @@
+{
+  "functions": {
+    "known": [
+      "do_bundle",
+      "rauc_bbappend_distrocheck"
+    ]
+  },
+  "variables": {
+    "known": [
+      "BUNDLE_ARGS",
+      "BUNDLE_BASENAME",
+      "BUNDLE_DIR",
+      "BUNDLE_EXTENSION",
+      "BUNDLE_LINK_NAME",
+      "BUNDLE_NAME",
+      "CASYNC_BUNDLE_BASENAME",
+      "CASYNC_BUNDLE_EXTENSION",
+      "CASYNC_BUNDLE_LINK_NAME",
+      "CASYNC_BUNDLE_NAME",
+      "CONVERT_ARGS",
+      "RAUC_BUNDLE_BUILD",
+      "RAUC_BUNDLE_COMPATIBLE",
+      "RAUC_BUNDLE_DESCRIPTION",
+      "RAUC_BUNDLE_EXTRA_DEPENDS",
+      "RAUC_BUNDLE_EXTRA_FILES",
+      "RAUC_BUNDLE_FORMAT",
+      "RAUC_BUNDLE_HOOKS",
+      "RAUC_BUNDLE_SLOTS",
+      "RAUC_BUNDLE_VERSION",
+      "RAUC_CASYNC_BUNDLE",
+      "RAUC_CERT_FILE",
+      "RAUC_IMAGE_FSTYPE",
+      "RAUC_KEYRING_FILE",
+      "RAUC_KEY_FILE",
+      "RAUC_VARFLAGS_HOOKS",
+      "RAUC_VARFLAGS_SLOTS",
+      "SSH_AUTH_SOCK"
+    ],
+    "renamed": {}
+  },
+  "replacements": {
+    "distros": [],
+    "machines": []
+  }
+}

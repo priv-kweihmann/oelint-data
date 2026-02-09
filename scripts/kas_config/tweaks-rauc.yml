@@ -1,0 +1,5 @@
+header:
+  version: 18
+local_conf_header:
+  tweaks-rauc: |
+    DISTRO_FEATURES += "rauc"
