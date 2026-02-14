@@ -102,6 +102,7 @@
       "create_source_date_epoch_stamp",
       "create_symlinks",
       "create_wrapper",
+      "cross_add_do_populate_sysroot_deps",
       "cross_canadian_bindirlinks",
       "cve_check_cleanup",
       "cve_check_write_rootfs_manifest",
