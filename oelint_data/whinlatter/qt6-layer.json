@@ -11,8 +11,6 @@
   },
   "variables": {
     "known": [
-      "BBFILES_PRIORITIZED",
-      "BB_LOGCONFIG",
       "CAN_USE_PYSIDE6",
       "EXE_EXT",
       "EXTRAQCONFFUNCS",
