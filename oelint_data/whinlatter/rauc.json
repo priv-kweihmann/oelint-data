@@ -39,8 +39,7 @@
       "RAUC_KEY_FILE",
       "RAUC_RECIPIENTS_CERT_FILE",
       "RAUC_VARFLAGS_HOOKS",
-      "RAUC_VARFLAGS_SLOTS",
-      "SSH_AUTH_SOCK"
+      "RAUC_VARFLAGS_SLOTS"
     ],
     "renamed": {}
   },
