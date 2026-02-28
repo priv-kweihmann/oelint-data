@@ -2,6 +2,7 @@
   "functions": {
     "known": [
       "bundle_containers",
+      "bundle_xen_guests",
       "collect_oci",
       "do_clean_discovery",
       "do_create_module_cache",
@@ -19,6 +20,7 @@
       "do_write_xen_qemuboot_dtb",
       "enable_runqemu_network",
       "enable_runqemu_network:qemuall",
+      "generate_bundle_config",
       "generate_docker_service_from_bundle",
       "generate_podman_service_from_bundle",
       "generate_xen_qemuboot_dtb",
@@ -26,13 +28,22 @@
       "go_mod_fix_permissions",
       "install_custom_service_from_bundle",
       "merge_installed_bundles",
+      "merge_installed_xen_bundles",
+      "resolve_bundle_kernel",
+      "resolve_bundle_rootfs",
+      "resolve_import_source",
       "vcontainer_sanity_check",
       "virt_bbappend_distrocheck",
       "virt_gen_hostname",
       "virt_set_hostname",
       "write_lop_add_chosen_module",
       "write_lop_add_to_xen_cmdline",
-      "write_lops_xen_section"
+      "write_lops_xen_section",
+      "xen_guest_external_license_warn",
+      "xen_guest_import_ext4",
+      "xen_guest_import_qcow2",
+      "xen_guest_import_raw",
+      "xen_guest_import_rootfs_dir"
     ]
   },
   "variables": {
@@ -115,7 +126,15 @@
       "VPDMN_BLOB_DIR",
       "VRUNNER_PATH",
       "VRUNTIME_MACHINE",
-      "VRUNTIME_MULTICONFIG"
+      "VRUNTIME_MULTICONFIG",
+      "XEN_GUEST_BUNDLES",
+      "XEN_GUEST_DISK_DEVICE_DEFAULT",
+      "XEN_GUEST_EXTRA_DEFAULT",
+      "XEN_GUEST_IMAGE_FSTYPE",
+      "XEN_GUEST_IMAGE_SIZE_DEFAULT",
+      "XEN_GUEST_MEMORY_DEFAULT",
+      "XEN_GUEST_VCPUS_DEFAULT",
+      "XEN_GUEST_VIF_DEFAULT"
     ],
     "renamed": {}
   },
