@@ -33,8 +33,7 @@
       "RAUC_KEYRING_FILE",
       "RAUC_KEY_FILE",
       "RAUC_VARFLAGS_HOOKS",
-      "RAUC_VARFLAGS_SLOTS",
-      "SSH_AUTH_SOCK"
+      "RAUC_VARFLAGS_SLOTS"
     ],
     "renamed": {}
   },
