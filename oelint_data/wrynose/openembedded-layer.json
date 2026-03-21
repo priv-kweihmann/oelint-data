@@ -9,6 +9,7 @@
       "do_scancode",
       "do_scancode_oss",
       "oe_image_systemd_repart_make_ddi",
+      "signing_create_uri_pem",
       "signing_extract_cert_der",
       "signing_extract_cert_pem",
       "signing_get_ca",
