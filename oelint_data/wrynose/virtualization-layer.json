@@ -142,7 +142,17 @@
   },
   "replacements": {
     "distros": [
-      "vruntime"
+      "container-host-containerd",
+      "container-host-docker",
+      "container-host-incus",
+      "container-host-k3s",
+      "container-host-k3s-node",
+      "container-host-podman",
+      "container-registry",
+      "meta-virt-dev",
+      "meta-virt-host",
+      "vruntime",
+      "xen-host"
     ],
     "machines": []
   }
