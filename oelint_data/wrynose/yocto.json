@@ -14,7 +14,14 @@
       "POKY_INIT_MANAGER",
       "REQUIRED_POKY_BBLAYERS_CONF_VERSION"
     ],
-    "renamed": {}
+    "renamed": {
+      "DISTRO_FEATURES_DEFAULT": "is obsolete, add all default features to DISTRO_FEATURES_DEFAULTS",
+      "DISTRO_FEATURES_BACKFILL": "is obsolete, add all default features to DISTRO_FEATURES_DEFAULTS",
+      "DISTRO_FEATURES_BACKFILL_CONSIDERED": "DISTRO_FEATURES_OPTED_OUT",
+      "MACHINE_FEATURES_DEFAULT": "is obsolete, add all default features to MACHINE_FEATURES_DEFAULTS",
+      "MACHINE_FEATURES_BACKFILL": "is obsolete, add all default features to MACHINE_FEATURES_DEFAULTS",
+      "MACHINE_FEATURES_BACKFILL_CONSIDERED": "MACHINE_FEATURES_OPTED_OUT"
+    }
   },
   "replacements": {
     "distros": [
