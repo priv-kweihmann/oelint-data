@@ -103,16 +103,15 @@
       "gosrc_do_unpack",
       "remove_testdirs",
       "sca_bot_comment",
-      "sca_cvecheck_init",
       "sca_invoke_handler",
       "sca_multimetric_init"
     ]
   },
   "variables": {
     "known": [
+      "BB_HASHSERVE_DB_DIR",
       "CARGO_FIXUP_IGNORE",
       "CONLOG",
-      "DISTRO_FEATURES_BACKFILL",
       "EXTRACTCODE_7Z_PATH",
       "EXTRACTCODE_LIBARCHIVE_PATH",
       "EXTRAOPKGCONFIG",
