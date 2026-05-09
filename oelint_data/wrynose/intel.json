@@ -1,6 +1,8 @@
 {
   "functions": {
-    "known": []
+    "known": [
+      "oneapi_vendor_compat_rootfs"
+    ]
   },
   "variables": {
     "known": [
