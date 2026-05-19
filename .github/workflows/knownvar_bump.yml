@@ -13,7 +13,7 @@ jobs:
 
     strategy:
       matrix:
-        release: [master, whinlatter, scarthgap, kirkstone]
+        release: [master, wrynose, scarthgap]
 
     permissions:
       contents: write

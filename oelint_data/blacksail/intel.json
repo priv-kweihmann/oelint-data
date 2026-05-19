@@ -1,0 +1,23 @@
+{
+  "functions": {
+    "known": [
+      "oneapi_vendor_compat_rootfs"
+    ]
+  },
+  "variables": {
+    "known": [
+      "CUSTOM_LICENSES_PATH",
+      "OPENCL_BACKENDS"
+    ],
+    "renamed": {}
+  },
+  "replacements": {
+    "distros": [],
+    "machines": [
+      "intel-core2-32",
+      "intel-corei7-64",
+      "intel-skylake-64",
+      "intel-x86-common"
+    ]
+  }
+}

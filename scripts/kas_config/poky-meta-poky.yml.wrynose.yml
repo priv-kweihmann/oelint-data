@@ -1,0 +1,7 @@
+header:
+  version: 18
+repos:
+  meta-yocto:
+    url: "https://git.yoctoproject.org/meta-yocto"
+    layers:
+      meta-poky:

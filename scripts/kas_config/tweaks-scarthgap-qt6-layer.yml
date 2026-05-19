@@ -1,0 +1,5 @@
+header:
+  version: 18
+repos:
+  meta-rubygems:
+    branch: "6.10"

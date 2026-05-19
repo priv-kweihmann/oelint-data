@@ -1,0 +1,17 @@
+{
+  "functions": {
+    "known": []
+  },
+  "variables": {
+    "known": [
+      "AUTOTOOLS_COPYACLOCAL",
+      "XFCEBASEBUILDCLASS",
+      "XFCE_COMPRESS_TYPE"
+    ],
+    "renamed": {}
+  },
+  "replacements": {
+    "distros": [],
+    "machines": []
+  }
+}

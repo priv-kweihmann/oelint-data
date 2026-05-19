@@ -1,0 +1,18 @@
+{
+  "functions": {
+    "known": [
+      "do_scanbuild",
+      "do_scanview"
+    ]
+  },
+  "variables": {
+    "known": [
+      "CLANGSDK"
+    ],
+    "renamed": {}
+  },
+  "replacements": {
+    "distros": [],
+    "machines": []
+  }
+}
