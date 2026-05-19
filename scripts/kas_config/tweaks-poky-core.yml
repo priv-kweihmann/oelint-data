@@ -10,7 +10,6 @@ local_conf_header:
     INHERIT += "ccache"
     INHERIT += "copyleft_compliance"
     INHERIT += "create-spdx"
-    INHERIT += "cve-check"
     INHERIT += "image-buildinfo"
     INHERIT += "rm_work"
     INHERIT += "sign_ipk"

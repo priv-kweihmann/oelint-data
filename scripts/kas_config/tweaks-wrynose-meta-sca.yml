@@ -1,0 +1,6 @@
+header:
+  version: 18
+repos:
+  meta-sca:
+    branch: master
+    commit: f31e5453d2e3286a8198644ed8176ddd5a82b203
