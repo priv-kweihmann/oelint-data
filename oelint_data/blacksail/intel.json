@@ -7,6 +7,7 @@
   "variables": {
     "known": [
       "CUSTOM_LICENSES_PATH",
+      "EXTRAOPKGCONFIG",
       "OPENCL_BACKENDS"
     ],
     "renamed": {}
