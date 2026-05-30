@@ -13,6 +13,7 @@
     "known": [
       "CAN_USE_PYSIDE6",
       "EXE_EXT",
+      "EXTRAOPKGCONFIG",
       "NATIVE_SYSROOT",
       "PATH_DELIM",
       "QT6BASE",
