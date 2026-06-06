@@ -6,10 +6,7 @@
   },
   "variables": {
     "known": [
-      "CLUTTERBASEBUILDCLASS",
-      "IMAGE_LINGUAS_COMPLEMENTARY",
-      "REALNAME",
-      "VERMINOR"
+      "IMAGE_LINGUAS_COMPLEMENTARY"
     ],
     "renamed": {}
   },

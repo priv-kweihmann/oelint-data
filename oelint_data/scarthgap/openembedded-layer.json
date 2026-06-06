@@ -28,18 +28,14 @@
   },
   "variables": {
     "known": [
-      "BBFILES_PRIORITIZED",
-      "BB_LOGCONFIG",
+      "EXTRAOPKGCONFIG",
       "FINAL_LIBS",
       "GITPKGV",
       "GITPKGVTAG",
       "GITPKGV_TAG_REGEXP",
       "GPE_TARBALL_SUFFIX",
       "HOST_AND_TARGET_SAME_WIDTH",
-      "LDEMULATION",
-      "PTESTS_FAST_META_OE",
-      "PTESTS_PROBLEMS_META_OE",
-      "PTESTS_SLOW_META_OE"
+      "LDEMULATION"
     ],
     "renamed": {}
   },
