@@ -3,11 +3,7 @@
     "known": []
   },
   "variables": {
-    "known": [
-      "PTESTS_FAST_META_PERL",
-      "PTESTS_PROBLEMS_META_PERL",
-      "PTESTS_SLOW_META_PERL"
-    ],
+    "known": [],
     "renamed": {}
   },
   "replacements": {
