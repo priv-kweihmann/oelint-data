@@ -7,13 +7,6 @@
   },
   "variables": {
     "known": [
-      "BBFILES_PRIORITIZED",
-      "BB_LOGCONFIG",
-      "DISTRO_CODENAME",
-      "POKY_DEFAULT_DISTRO_FEATURES",
-      "POKY_DEFAULT_EXTRA_RDEPENDS",
-      "POKY_DEFAULT_EXTRA_RRECOMMENDS",
-      "POKY_INIT_MANAGER",
       "REQUIRED_POKY_BBLAYERS_CONF_VERSION"
     ],
     "renamed": {}
