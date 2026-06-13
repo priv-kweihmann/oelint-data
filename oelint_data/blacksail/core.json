@@ -134,6 +134,7 @@
       "do_ar_mirror",
       "do_ar_original",
       "do_ar_patched",
+      "do_ar_prepare",
       "do_ar_recipe",
       "do_bootimg",
       "do_build",
