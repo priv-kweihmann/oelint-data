@@ -18,6 +18,7 @@
   "variables": {
     "known": [
       "DEFAULT_FS_SUPPORT",
+      "EXTRAOPKGCONFIG",
       "FSL_EULA_FILE",
       "FSL_MIRROR",
       "IMX_MIRROR",

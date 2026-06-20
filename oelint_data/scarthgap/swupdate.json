@@ -9,7 +9,6 @@
   },
   "variables": {
     "known": [
-      "EXTRAOPKGCONFIG",
       "IMAGE_DEPENDS",
       "SWUDEPLOYDIR",
       "SWUPDATE_IMAGES",
