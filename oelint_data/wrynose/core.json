@@ -261,6 +261,7 @@
       "do_uboot_mkimage",
       "do_uki",
       "do_unpack",
+      "do_unpack_and_patch",
       "do_update_crates",
       "do_update_modules",
       "do_validate_branches",
