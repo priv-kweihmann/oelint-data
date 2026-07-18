@@ -7,8 +7,6 @@
   },
   "variables": {
     "known": [
-      "BBFILES_PRIORITIZED",
-      "BB_LOGCONFIG",
       "REQUIRED_POKY_BBLAYERS_CONF_VERSION"
     ],
     "renamed": {}
