@@ -9,6 +9,10 @@
   },
   "variables": {
     "known": [
+      "LICENSE = \"LicenseRef-core-image-swupdate-CLOSED\"",
+      "LICENSE = \"LicenseRef-core-image-swupdate2-CLOSED\"",
+      "LICENSE = \"LicenseRef-core-image-swupdate-CLOSED\"",
+      "LICENSE = \"LicenseRef-core-image-swupdate2-CLOSED\"",
       "IMAGE_DEPENDS",
       "SWUDEPLOYDIR",
       "SWUPDATE_IMAGES",

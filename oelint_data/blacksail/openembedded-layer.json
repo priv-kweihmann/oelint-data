@@ -41,8 +41,6 @@
   "variables": {
     "known": [
       "BINDGEN_EXTRA_CLANG_ARGS",
-      "CARGO_C_BUILD",
-      "CARGO_C_INSTALL",
       "EXTRAOPKGCONFIG",
       "FINAL_LIBS",
       "GITPKGV",
