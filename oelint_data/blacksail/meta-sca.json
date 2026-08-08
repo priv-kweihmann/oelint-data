@@ -110,8 +110,10 @@
   },
   "variables": {
     "known": [
+      "BBFILES_PRIORITIZED",
       "BB_DONT_CACHE",
       "BB_HASHSERVE_DB_DIR",
+      "BB_LOGCONFIG",
       "CARGO_FIXUP_IGNORE",
       "CONLOG",
       "DISTRO_CODENAME",

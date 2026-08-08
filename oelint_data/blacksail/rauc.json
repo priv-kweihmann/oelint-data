@@ -7,6 +7,8 @@
   },
   "variables": {
     "known": [
+      "BBFILES_PRIORITIZED",
+      "BB_LOGCONFIG",
       "BUNDLE_ARGS",
       "BUNDLE_BASENAME",
       "BUNDLE_DIR",

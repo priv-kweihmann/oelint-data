@@ -17,6 +17,8 @@
   },
   "variables": {
     "known": [
+      "BBFILES_PRIORITIZED",
+      "BB_LOGCONFIG",
       "DEFAULT_FS_SUPPORT",
       "EXTRAOPKGCONFIG",
       "FSL_EULA_FILE",
@@ -71,6 +73,7 @@
       "imx8qxp-mek",
       "imx8ulp-lpddr4-evk",
       "imx93-11x11-lpddr4x-evk",
+      "imx93-11x11-lpddr4x-frdm",
       "imx93-14x14-lpddr4x-evk",
       "imx93-9x9-lpddr4-qsb",
       "imx943-19x19-lpddr4-evk",
