@@ -40,8 +40,6 @@
   },
   "variables": {
     "known": [
-      "BBFILES_PRIORITIZED",
-      "BB_LOGCONFIG",
       "BINDGEN_EXTRA_CLANG_ARGS",
       "EXTRAOPKGCONFIG",
       "FINAL_LIBS",

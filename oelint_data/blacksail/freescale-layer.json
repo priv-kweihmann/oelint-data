@@ -17,8 +17,6 @@
   },
   "variables": {
     "known": [
-      "BBFILES_PRIORITIZED",
-      "BB_LOGCONFIG",
       "DEFAULT_FS_SUPPORT",
       "EXTRAOPKGCONFIG",
       "FSL_EULA_FILE",
