@@ -3,4 +3,4 @@ build ~= 1.5
 kas ~= 5.4
 oelint-adv ~= 9.10
 twine == 7.0.0
-wheel ~= 0.47
+wheel ~= 0.48
