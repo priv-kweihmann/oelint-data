@@ -15,6 +15,7 @@ INHIBIT_DEFAULT_RUST_DEPS ??= ""
 INHIBIT_PACKAGE_STRIP_FILES ??= ""
 INHIBIT_UPDATERCD_BBCLASS ??= ""
 INITRD ??= ""
+KERNEL_DEVICETREE ??= ""
 KERNEL_EXTRA_FEATURES ??= ""
 LABELS ??= ""
 MCNAME ??= ""
@@ -27,3 +28,10 @@ UBOOT_EXTLINUX_MENU_DESCRIPTION ??= ""
 UPSTREAM_CHECK_COMMITS ??= ""
 UPSTREAM_CHECK_GITTAGREGEX ??= ""
 UPSTREAM_VERSION_UNKNOWN ??= ""
+
+# the following do have defaults, but somehow
+# create a race so the either appear on the 1st or
+# the 2nd run in the workspace
+# force them into core
+BBFILES_PRIORITIZED ??= ""
+BB_LOGCONFIG ??= ""
