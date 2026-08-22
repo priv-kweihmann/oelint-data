@@ -7,8 +7,6 @@
   },
   "variables": {
     "known": [
-      "BBFILES_PRIORITIZED",
-      "BB_LOGCONFIG",
       "CURL_CA_BUNDLE",
       "DEPOT_TOOLS",
       "DEPOT_TOOLS_XDG_CONFIG_HOME",
