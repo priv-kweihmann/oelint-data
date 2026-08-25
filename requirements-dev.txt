@@ -1,6 +1,6 @@
 bump-my-version == 1.5.1
 build ~= 1.5
 kas ~= 5.5
-oelint-adv ~= 9.10
+oelint-adv ~= 9.11
 twine == 7.0.0
 wheel ~= 0.48
