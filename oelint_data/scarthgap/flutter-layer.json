@@ -2,19 +2,44 @@
   "functions": {
     "known": [
       "do_archive_pub_cache",
-      "do_restore_pub_cache"
+      "do_dump_hook_logs",
+      "do_restore_pub_cache",
+      "flutter_native_cmake_setup",
+      "flutter_native_path_setup"
     ]
   },
   "variables": {
     "known": [
+      "APP_AOT_ENTRY_FILE",
+      "APP_AOT_EXTRA",
+      "APP_CONFIG",
+      "APP_GEN_SNAPSHOT_FLAGS",
+      "BUILD_TYPE",
       "CURL_CA_BUNDLE",
       "DEPOT_TOOLS",
       "DEPOT_TOOLS_XDG_CONFIG_HOME",
       "EXTRA_GN_SYNC",
+      "FLUTTER_APPLICATION_INSTALL_PREFIX",
+      "FLUTTER_APPLICATION_INSTALL_SUFFIX",
+      "FLUTTER_APPLICATION_PATH",
+      "FLUTTER_APP_RUNTIME_MODES",
+      "FLUTTER_APP_SUPPORTED_ARCHS",
+      "FLUTTER_BUILD_ARGS",
+      "FLUTTER_INSTALL_DIR",
+      "FLUTTER_PREBUILD_CMD",
+      "FLUTTER_PUB_ROOT",
+      "FLUTTER_SDK",
       "FLUTTER_SDK_TAG",
+      "FLUTTER_SDK_VERSION",
       "GN_CUSTOM_DEPS",
       "GN_CUSTOM_VARS",
       "GN_DEPS_FILE",
+      "GN_PACK_EXCLUDES",
+      "PUBSPEC_IGNORE_LOCKFILE",
+      "PUB_CACHE",
+      "PUB_CACHE_ARCHIVE",
+      "PUB_CACHE_EXTRA_ARCHIVE_CMD",
+      "PUB_CACHE_EXTRA_ARCHIVE_PATH",
       "PYTHON3_PATH",
       "VPYTHON_VIRTUALENV_ROOT"
     ],
