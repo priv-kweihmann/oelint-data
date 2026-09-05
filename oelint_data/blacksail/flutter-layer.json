@@ -2,10 +2,17 @@
   "functions": {
     "known": [
       "do_archive_pub_cache",
+      "do_check_pubspec_lock",
       "do_dump_hook_logs",
+      "do_install_pubspec_lock",
+      "do_pub_get_offline",
       "do_restore_pub_cache",
+      "do_seed_pub_cache",
+      "do_write_hosted_hashes",
+      "flutter_check_packaged_registrant",
       "flutter_native_cmake_setup",
-      "flutter_native_path_setup"
+      "flutter_native_path_setup",
+      "flutter_stamp_sdk_resolution"
     ]
   },
   "variables": {
@@ -14,6 +21,7 @@
       "APP_AOT_EXTRA",
       "APP_CONFIG",
       "APP_GEN_SNAPSHOT_FLAGS",
+      "AUTHOR",
       "BUILD_TYPE",
       "CURL_CA_BUNDLE",
       "DEPOT_TOOLS",
@@ -35,12 +43,19 @@
       "GN_CUSTOM_VARS",
       "GN_DEPS_FILE",
       "GN_PACK_EXCLUDES",
+      "PUBSPEC_APP_DIR",
       "PUBSPEC_IGNORE_LOCKFILE",
       "PUB_CACHE",
       "PUB_CACHE_ARCHIVE",
+      "PUB_CACHE_BASE",
       "PUB_CACHE_EXTRA_ARCHIVE_CMD",
       "PUB_CACHE_EXTRA_ARCHIVE_PATH",
+      "PUB_CACHE_LOCAL",
+      "PUB_GET_TIMEOUT",
       "PYTHON3_PATH",
+      "SDK_WORKSPACE_FRAGMENT",
+      "SDK_WORKSPACE_PATHS",
+      "SDK_WORKSPACE_VENDOR",
       "VPYTHON_VIRTUALENV_ROOT"
     ],
     "renamed": {}
