@@ -174,6 +174,7 @@
       "vcontainer-sdk-aarch64",
       "vcontainer-sdk-vdkr-x86-64",
       "vcontainer-sdk-vpdmn-x86-64",
+      "vcontainer-sdk-vxn-podman-x86-64",
       "vcontainer-sdk-vxn-x86-64",
       "vcontainer-sdk-x86-64",
       "vruntime",
