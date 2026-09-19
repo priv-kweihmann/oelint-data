@@ -1,8 +1,6 @@
 {
   "functions": {
     "known": [
-      "IMAGE_CMD:uboot-mxsboot-nand",
-      "IMAGE_CMD:uboot-mxsboot-sdcard",
       "do_kernel_localversion",
       "do_populate_mfgtool",
       "do_resolve_and_populate_binaries",
@@ -10,6 +8,8 @@
       "fsl_vivante_kernel_driver_handler",
       "gen_imximage",
       "generate_mfgtool_bundle",
+      "generate_uboot_mxsboot_nand",
+      "generate_uboot_mxsboot_sdcard",
       "imx_mkimage",
       "machine_overrides_extender_handler",
       "machineoverrides_filtered_out_qa_handler"
