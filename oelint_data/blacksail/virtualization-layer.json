@@ -178,6 +178,7 @@
       "vcontainer-sdk-vxn-x86-64",
       "vcontainer-sdk-x86-64",
       "vruntime",
+      "vxn-host",
       "xen-host"
     ],
     "machines": []
