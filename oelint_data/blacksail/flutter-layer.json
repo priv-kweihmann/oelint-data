@@ -82,6 +82,7 @@
       "GN_CUSTOM_VARS",
       "GN_DEPS_FILE",
       "GN_PACK_EXCLUDES",
+      "LIBCPLUSPLUS",
       "PUBSPEC_APP_DIR",
       "PUBSPEC_IGNORE_LOCKFILE",
       "PUB_CACHE",
