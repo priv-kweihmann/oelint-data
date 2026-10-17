@@ -51,7 +51,8 @@
       "OEQA_REPRODUCIBLE_EXCLUDED_PACKAGES",
       "PTESTS_FAST_META_OE",
       "PTESTS_PROBLEMS_META_OE",
-      "PTESTS_SLOW_META_OE"
+      "PTESTS_SLOW_META_OE",
+      "SYSROOT"
     ],
     "renamed": {}
   },
