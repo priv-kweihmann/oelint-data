@@ -1,4 +1,4 @@
-bump-my-version == 1.6.1
+bump-my-version == 1.6.3
 build ~= 1.6
 kas ~= 5.5
 oelint-adv ~= 9.11
