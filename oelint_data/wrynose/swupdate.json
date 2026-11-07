@@ -11,8 +11,13 @@
     "known": [
       "IMAGE_DEPENDS",
       "SWUDEPLOYDIR",
+      "SWUGENERATOR_EXTRA_ARGS",
+      "SWUGENERATOR_FUNCTIONS",
+      "SWUPDATE_ARTIFACTS_DIR",
       "SWUPDATE_IMAGES",
-      "SWUPDATE_IMAGES_FSTYPES"
+      "SWUPDATE_IMAGES_FSTYPES",
+      "SWUPDATE_KEEP_NAMES",
+      "SWUPDATE_UNIQUE_IV"
     ],
     "renamed": {}
   },
