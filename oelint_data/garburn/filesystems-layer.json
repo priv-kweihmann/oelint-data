@@ -1,0 +1,17 @@
+{
+  "functions": {
+    "known": []
+  },
+  "variables": {
+    "known": [
+      "PTESTS_FAST_META_FILESYSTEMS",
+      "PTESTS_PROBLEMS_META_FILESYSTEMS",
+      "PTESTS_SLOW_META_FILESYSTEMS"
+    ],
+    "renamed": {}
+  },
+  "replacements": {
+    "distros": [],
+    "machines": []
+  }
+}

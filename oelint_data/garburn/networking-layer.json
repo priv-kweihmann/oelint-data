@@ -1,0 +1,22 @@
+{
+  "functions": {
+    "known": [
+      "do_kernel_add_regdb"
+    ]
+  },
+  "variables": {
+    "known": [
+      "CROSS_METHOD",
+      "PERLPROG",
+      "PTESTS_FAST_META_NETWORKING",
+      "PTESTS_PROBLEMS_META_NETWORKING",
+      "PTESTS_SLOW_META_NETWORKING",
+      "WAF_CROSS_ANSWERS_PATH"
+    ],
+    "renamed": {}
+  },
+  "replacements": {
+    "distros": [],
+    "machines": []
+  }
+}

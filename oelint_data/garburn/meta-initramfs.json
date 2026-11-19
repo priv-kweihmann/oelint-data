@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "known": []
+  },
+  "variables": {
+    "known": [],
+    "renamed": {}
+  },
+  "replacements": {
+    "distros": [],
+    "machines": []
+  }
+}
