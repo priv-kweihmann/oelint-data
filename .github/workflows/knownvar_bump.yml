@@ -13,7 +13,7 @@ jobs:
 
     strategy:
       matrix:
-        release: [master, wrynose, scarthgap]
+        release: [master, blacksail, wrynose, scarthgap]
 
     permissions:
       contents: write

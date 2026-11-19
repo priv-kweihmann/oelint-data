@@ -1,0 +1,23 @@
+{
+  "functions": {
+    "known": [
+      "poky_update_bblayersconf",
+      "pokybleeding_version_handler"
+    ]
+  },
+  "variables": {
+    "known": [
+      "REQUIRED_POKY_BBLAYERS_CONF_VERSION"
+    ],
+    "renamed": {}
+  },
+  "replacements": {
+    "distros": [
+      "poky",
+      "poky-altcfg",
+      "poky-bleeding",
+      "poky-tiny"
+    ],
+    "machines": []
+  }
+}
